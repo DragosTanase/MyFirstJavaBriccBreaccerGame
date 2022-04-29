@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package briccbraccer;
 
 import java.awt.Color;
@@ -17,10 +14,6 @@ import java.util.ArrayList;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-/**
- *
- * @author ganda
- */
 public class Bricks extends JPanel {
 
     public ArrayList<Rectangle> bricks = new ArrayList<Rectangle>();
@@ -64,5 +57,3 @@ public class Bricks extends JPanel {
 
 }
 
-// asta si-a pus o valoarea pentru fiecare rand/coloana ca sa stie
-// ca atunci cand loveste valoarea sa se stearga
